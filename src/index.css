@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Header {
+  font-size: 50px;
+  text-align: center;
+  margin-left: 500px;
+  border-bottom: 1px solid rebeccapurple;
+  width: 400px;
+  color: rebeccapurple;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Forms {
+  margin-left: 450px;
+  padding: 50px;
+}
+.inputText {
+  flex: 1;
+  height: 30px;
+  width: 300px;
+  border: 1px solid rebeccapurple;
+  border-radius: 3px;
+  padding-left: 15px;
+  outline: none;
+}
+.AddText {
+  cursor: pointer;
+  margin-left: 10px;
+  height: 34px;
+  background-color: rebeccapurple;
+  border: none;
+  color: white;
+  align-items: center;
+  border-radius: 3px;
+}
+.TodoList {
+  width: 400px;
+  margin-left: 500px;
+}
+.Fovorite {
+  padding-right: 15px;
+}
+.Text {
+  flex: 1;
+}
+.todo {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rebeccapurple;
+  align-items: center;
+}
+.Delete {
+  font-size: 20px;
+  border: none;
+  padding-right: 15px;
+  cursor: pointer;
+  background: none;
+}
+.Fovorite button {
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  background: none;
+}
+.selected .Fovorite button {
+  color: yellow;
+}
+.selected {
+  background-color: rosybrown;
 }
